@@ -10,15 +10,17 @@ print("calculadora en Python")
 
 
 
-numero1 = input("Ingrese un numero")
+numero1 = int(input("Ingrese un numero"))
 
-numero2= input("Ingrese un numero")
 
-#sumar los numeros
 
-suma = numero1 + numero2
+numero2= int(input("Ingrese un numero"))
+
+#multiplicar los numeros
+
+multiplicar = numero1 * numero2
 
 #mostrar resultado
 
-print(suma)
+print(multiplicar)
 
